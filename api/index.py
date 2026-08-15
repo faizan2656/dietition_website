@@ -1,4 +1,7 @@
-from app import app
+import sys
+import os
 
-# Vercel Serverless Function Handler
-app = app
+# Root directory ko Python path mein add karna:
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
+from app import app
