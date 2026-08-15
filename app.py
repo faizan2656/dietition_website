@@ -170,3 +170,6 @@ def submit_assessment():
 
 if __name__ == "__main__":
   app.run(host="0.0.0.0", port=5000, debug=True)
+
+# Ye line Vercel ke liye lazmi add karein:
+app = app
