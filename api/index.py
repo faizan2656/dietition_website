@@ -1,0 +1,4 @@
+from app import app
+
+# Vercel Serverless Function Handler
+app = app
