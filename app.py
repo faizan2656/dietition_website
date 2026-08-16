@@ -154,7 +154,7 @@ def submit_assessment():
       f" *Height:* {feet} ft {inches} in\n"
       f" *Weight:* {weight} kg\n"
       f" *Selected Goal:* {goal}\n"
-      f" *Medical Issue / Notes:* {medical}\n\n"
+      f" *Health Issue / Notes:* {medical}\n\n"
       "_Submitted via DN. Faryal Tahir Portal_"
   )
 
