@@ -149,14 +149,14 @@ def submit_assessment():
 
   msg = (
       "🌿 *New Client Assessment Submission*\n\n"
-      f"👤 *Name:* {name}\n"
-      f"📞 *Phone:* {phone}\n"
-      f"🎂 *Age:* {age} years\n"
-      f"🚻 *Gender:* {gender}\n"
-      f"📏 *Height:* {feet} ft {inches} in\n"
-      f"⚖️ *Weight:* {weight} kg\n"
-      f"🎯 *Selected Goal:* {goal}\n"
-      f"📋 *Medical History / Notes:* {medical}\n\n"
+      f" *Name:* {name}\n"
+      f" *Phone:* {phone}\n"
+      f" *Age:* {age} years\n"
+      f" *Gender:* {gender}\n"
+      f" *Height:* {feet} ft {inches} in\n"
+      f" *Weight:* {weight} kg\n"
+      f" *Selected Goal:* {goal}\n"
+      f" *Medical History / Notes:* {medical}\n\n"
       "_Submitted via DN. Faryal Tahir Portal_"
   )
 
