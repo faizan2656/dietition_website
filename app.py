@@ -135,7 +135,6 @@ def home():
 @app.route("/submit-assessment", methods=["POST"])
 def submit_assessment():
   name = request.form.get("clientName", "N/A")
-  phone = request.form.get("clientPhone", "N/A")
   age = request.form.get("clientAge", "N/A")
   gender = request.form.get("clientGender", "N/A")
   feet = request.form.get("clientFeet", "0")
@@ -150,13 +149,12 @@ def submit_assessment():
   msg = (
       "🌿 *New Client Assessment Submission*\n\n"
       f" *Name:* {name}\n"
-      f" *Phone:* {phone}\n"
       f" *Age:* {age} years\n"
       f" *Gender:* {gender}\n"
       f" *Height:* {feet} ft {inches} in\n"
       f" *Weight:* {weight} kg\n"
       f" *Selected Goal:* {goal}\n"
-      f" *Medical History / Notes:* {medical}\n\n"
+      f" *Medical Issue / Notes:* {medical}\n\n"
       "_Submitted via DN. Faryal Tahir Portal_"
   )
 
