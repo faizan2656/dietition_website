@@ -137,6 +137,8 @@ def submit_assessment():
   name = request.form.get("clientName", "N/A")
   age = request.form.get("clientAge", "N/A")
   gender = request.form.get("clientGender", "N/A")
+  occupation = request.form.get("clientOccupation", "N/A")
+  location = request.form.get("clientLocation", "N/A")
   feet = request.form.get("clientFeet", "0")
   inches = request.form.get("clientInches", "0")
   weight = request.form.get("clientWeight", "N/A")
@@ -151,6 +153,8 @@ def submit_assessment():
       f" *Name:* {name}\n"
       f" *Age:* {age} years\n"
       f" *Gender:* {gender}\n"
+      f" *Occupation:* {occupation}\n"
+      f" *Location:* {location}\n"
       f" *Height:* {feet} ft {inches} in\n"
       f" *Weight:* {weight} kg\n"
       f" *Selected Goal:* {goal}\n"
